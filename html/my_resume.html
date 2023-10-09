@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <!-- Top naigation bar for pages -->
+  <body>
+    <nav class="navbar">
+      <header><strong>Troy Dunbar Protfolio Website</strong></header>
+      <!-- Link Break  -->
+      <a href="../index.html">Homepage</a>
+      <a href="./my_fun_facts.html">Fun Facts</a>
+    </nav>
+  <!-- Resume header and page -->
+  <header><h1>Resume</h1></header>
+  <hr />
+  <body>
+    <div class="mainbody">
+      <section class="objective">
+        <h3>Objective</h3>
+        <h5>
+          Gain an internship in the summer of 2024 following my graduation from
+          Oakland University
+        </h5>
+        <hr />
+      </section>
+      <!-- Experience body -->
+      <section class="exeprince">
+        <h3>Professional Exeprince</h3>
+        <h5>Franklin Templeton - Wealth Technology Intern</h5>
+        <h5>New York City, New York</h5>
+        <ul>
+          <li>
+            Developed open banking SSO, single sign on, application page,
+            leading the development and regulation of Franklin Templeton's open
+            banking applications, allowing for exchanging of assets for
+            customers between institutions without having to prove identity to
+            new banks.
+          </li>
+          <li>
+            Focused on token authentication inside the Fiduciary Trusts
+            department, researched and programmed new token based system for
+            sharing information with other financial institutions, implementing
+            the first token based sharing service for Fiduciary Trusts.
+          </li>
+          <li>
+            Collaborated on implementing new regulations within open banking
+            standards, with examples of refresh tokens and 90 day Bearer tokens
+            used to identifying customers and sharing information, without
+            sharing identity sensitive data through AISP, Account Information
+            Service Provider.
+          </li>
+        </ul>
+        <h5>Envestnet - Front End Development Intern</h5>
+        <h5>Powhatan, Virginia</h5>
+        <ul>
+          <li>
+            Creating useful financial applications throughout the internship
+            with the majority of work being put into two large collaborative
+            projects to help newly graduated students, and a multi-page
+            application to help individuals with special financial needs to find
+            eligibility in government aid.
+          </li>
+          <li>
+            Using the Angular framework and communicating with the C# backend
+            through localhosts to display useful and specialized data to users.
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <!-- Education body -->
+      <section class="education">
+        <h3>Educational Experience</h3>
+        <table border="1">
+          <tr>
+            <td>Start - Graduation</td>
+            <td align="center">Degree</td>
+          </tr>
+          <tr>
+            <td>2020 - 2024</td>
+            <td>Bachelor of Science in Computer Science</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <!-- Hobbies body -->
+      <section class="hobbies">
+        <h3>Extracurricular Interests and Hobbies</h3>
+        <br />
+        Outside of school I work on open banking regulations and develop
+        documentations and guidelines for investment firms moving into open
+        bakning and special needs assessment.
+        <h5>Open Banking Token Authentication</h5>
+        <ul>
+          <li>
+            Building upon Franklin Templeton's Fiduciary Trusts website, I
+            developed a new sign in page that followed Open Banking regulations,
+            requiring a JWT refresh token to create a 90 day Bearer Token that
+            can be used as proof of identification when signing in.
+          </li>
+          <li>
+            Azure Active Directory B2C as the authentication server, that
+            directory is used to store and create tokens that are then shared
+            with Franklin Templeton, which can be shared with other financial
+            institutions without putting the customers personal information at
+            risk of being known..
+          </li>
+          <li>
+            This project is used as a baseline of where Fiduciary Trusts will be
+            heading in the future with open banking, and is the example of what
+            authentication systems must follow within Franklin Templeton as they
+            expand into blockchain and open banking.
+          </li>
+        </ul>
+        <h5>Special Needs Analysis Webpage</h5>
+        <ul>
+          <li>
+            Designing a multi-page application with sign-up and login
+            credentials to save users information, the application was headed by
+            the three Frontend interns including myself on Angular.
+          </li>
+          <li>
+            Creating a RouterComponent to store router-link information, and
+            coordinating API requests before page loading to ensure data is
+            received before rendering outputs, the navigation between multiple
+            pages allowed the data to consistently be stored in the services and
+            interfaces we had established.
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+  <hr />
+  <!-- Footer break -->
+  <footer>
+    <address>1234 Random Road, Rochester Hills, MI 48306</address>
+    <a href="">troydunbar@oakland.edu</a>
+    <a href="tel: +555-555-5555">Give me a call</a>
+  </footer>
+</html>
